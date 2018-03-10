@@ -10,9 +10,9 @@ const pusher = new Pusher(pusherConfiguration);
 export const getBxNerdTweet = (tweet: Object) => {
   pusher.trigger('bxnerd', 'new-hashtag', {
     'message': tweet
-  })
-}
+  });
+};
 
-const stream = T.stream('statuses/filter', { track: '#BxNerd' })
+const stream = T.stream('statuses/filter', { track: '#BxNerd' });
 
-stream.on('tweet', getBxNerdTweet)
+stream.on('tweet', getBxNerdTweet);

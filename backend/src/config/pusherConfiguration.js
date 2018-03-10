@@ -10,4 +10,4 @@ export default pusherConfiguration = {
   secret,
   cluster,
   encrypted
-}
+};
