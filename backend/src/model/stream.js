@@ -1,3 +1,4 @@
+// @flow
 module.exports = (app) => {
   const model = {}
   const { pusher } = app;

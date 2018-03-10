@@ -1,3 +1,4 @@
+// @flow
 module.exports = (app) => {
   const { model, T } = app;
   const { stream } = model;
