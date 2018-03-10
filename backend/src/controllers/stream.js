@@ -5,4 +5,4 @@ module.exports = (app) => {
   const { getBxNerdTweet } = stream;
   const twitterStream = T.stream('statuses/filter', { track: '#BxNerd' });
   twitterStream.on('tweet', getBxNerdTweet);
-}
+};
