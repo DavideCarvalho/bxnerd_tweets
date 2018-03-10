@@ -4,10 +4,12 @@ const secret = 'd047e38f60924e138268';
 const cluster = 'us2';
 const encrypted = true;
 
-export default pusherConfiguration = {
+const pusherConfiguration = {
   appId,
   key,
   secret,
   cluster,
   encrypted
 };
+
+export default pusherConfiguration;
